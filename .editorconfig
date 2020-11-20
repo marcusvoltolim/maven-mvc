@@ -1,0 +1,13 @@
+#@formatter:off
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = tab
+insert_final_newline = false
+trim_trailing_whitespace = true
+
+[*.{md,yml,gitignore,editorconfig,xml}]
+indent_size = 2
