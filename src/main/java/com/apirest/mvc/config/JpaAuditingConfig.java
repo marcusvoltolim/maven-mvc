@@ -21,7 +21,7 @@ public class JpaAuditingConfig {
 
 		@Override
 		public Optional<String> getCurrentAuditor() {
-			return Optional.empty();
+			return Optional.of("MarcusVoltolim");
 		}
 
 	}
